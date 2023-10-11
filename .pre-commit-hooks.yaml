@@ -1,0 +1,10 @@
+- id: coverage
+  name: coverage
+  entry: python coverage_test.sh
+  language: python
+  types:
+    - go
+  args: [--settings-file=.coverage_settings]
+
+
+      
